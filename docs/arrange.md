@@ -170,16 +170,16 @@ proxy:
 
 在 1Panel 面板中，点击 **网站** -> **网站** -> **创建网站**，分别创建以下网站：
 
->（此处以本站域名为例 ``anye.in``，请替换为你的域名）
+>（此处以本站域名为例 ``june.ink``，请替换为你的域名）
 
 | 模式 | 主域名 | 协议 | 代理地址 | 备注 |
 | :---: | :---: | :---: | :---: | :---: |
-| 反向代理 | mirror.anye.in | http | 127.0.0.1:51000 | Docker Hub |
-| 反向代理 | ghcr.anye.in | http | 127.0.0.1:52000 | GitHub Container Registry |
-| 反向代理 | gcr.anye.in | http | 127.0.0.1:53000 | Google Container Registry |
-| 反向代理 | k8s.anye.in | http | 127.0.0.1:54000 | Google Kubernetes |
-| 反向代理 | quay.anye.in | http | 127.0.0.1:55000 | Quay.io |
-| 反向代理 | mcr.anye.in | http | 127.0.0.1:56000 | Microsoft Artifact Registry |
+| 反向代理 | mirror.june.ink | http | 127.0.0.1:51000 | Docker Hub |
+| 反向代理 | ghcr.june.ink | http | 127.0.0.1:52000 | GitHub Container Registry |
+| 反向代理 | gcr.june.ink | http | 127.0.0.1:53000 | Google Container Registry |
+| 反向代理 | k8s.june.ink | http | 127.0.0.1:54000 | Google Kubernetes |
+| 反向代理 | quay.june.ink | http | 127.0.0.1:55000 | Quay.io |
+| 反向代理 | mcr.june.ink | http | 127.0.0.1:56000 | Microsoft Artifact Registry |
 
 ### 启用HTTPS
 

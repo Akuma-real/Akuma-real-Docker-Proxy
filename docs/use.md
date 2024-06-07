@@ -15,7 +15,7 @@
 ```bash
 docker run -d --name frpc \
     -v /path/frpc.ini:/frp/frpc.ini \
-    mirror.anye.in/stilleshan/frpc:latest
+    mirror.june.ink/stilleshan/frpc:latest
 ```
 
 #### docker-compose.yml
@@ -24,7 +24,7 @@ docker run -d --name frpc \
 version: "3.9"
 services:
   frpc:
-    image: mirror.anye.in/stilleshan/frpc:latest
+    image: mirror.june.ink/stilleshan/frpc:latest
     volumes:
       - ./frpc.ini:/frp/frpc.ini
     restart: always
@@ -36,7 +36,7 @@ services:
 ```json
 {
   "registry-mirrors": [
-    "https://mirror.anye.in"
+    "https://mirror.june.ink"
   ]
 }
 ```
@@ -48,13 +48,13 @@ services:
 
 官方命令： `docker pull stilleshan/frpc:latest`
 
-代理命令： `docker pull mirror.anye.in/stilleshan/frpc:latest`
+代理命令： `docker pull mirror.june.ink/stilleshan/frpc:latest`
 
 ### 根镜像代理
 
 官方命令： `docker pull nginx:latest`
 
-代理命令： `docker pull mirror.anye.in/library/nginx:latest`
+代理命令： `docker pull mirror.june.ink/library/nginx:latest`
 
 ## GitHub Container Registry
 ---
@@ -63,7 +63,7 @@ services:
 
 官方命令： `docker pull ghcr.io/username/image:tag`
 
-代理命令： `docker pull ghcr.anye.in/username/image:tag`
+代理命令： `docker pull ghcr.june.ink/username/image:tag`
 
 ## Google Container Registry
 ---
@@ -72,7 +72,7 @@ services:
 
 官方命令： `docker pull gcr.io/username/image:tag`
 
-代理命令： `docker pull gcr.anye.in/username/image:tag`
+代理命令： `docker pull gcr.june.ink/username/image:tag`
 
 ## Google Kubernetes
 ---
@@ -83,7 +83,7 @@ services:
 
 官方命令： `docker pull registry.k8s.io/username/image:tag`
 
-代理命令： `docker pull k8s.anye.in/username/image:tag`
+代理命令： `docker pull k8s.june.ink/username/image:tag`
 
 ### 根镜像代理
 
@@ -91,7 +91,7 @@ services:
 
 官方命令： `docker pull registry.k8s.io/coredns:1.6.5`
 
-代理命令： `docker pull k8s.anye.in/coredns:1.6.5`
+代理命令： `docker pull k8s.june.ink/coredns:1.6.5`
 
 ## Quay.io
 ---
@@ -100,7 +100,7 @@ services:
 
 官方命令： `docker pull quay.io/username/image:tag`
 
-代理命令： `docker pull quay.anye.in/username/image:tag`
+代理命令： `docker pull quay.june.ink/username/image:tag`
 
 ## Microsoft Artifact Registry
 ---
@@ -109,4 +109,4 @@ services:
 
 官方命令： `docker pull mcr.microsoft.com/azure-cognitive-services/diagnostic:latest`
 
-代理命令： `docker pull mcr.anye.in/azure-cognitive-services/diagnostic:latest`
+代理命令： `docker pull mcr.june.ink/azure-cognitive-services/diagnostic:latest`

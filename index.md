@@ -48,9 +48,9 @@ export default {
   data() {
     return {
       originalImage: "",
-      pullCommand: "docker pull mirror.anye.in/stilleshan/frpc:latest",
-      tagCommand: "docker tag mirror.anye.in/stilleshan/frpc:latest stilleshan/frpc:latest",
-      rmiCommand: "docker rmi mirror.anye.in/stilleshan/frpc:latest"
+      pullCommand: "docker pull mirror.june.ink/stilleshan/frpc:latest",
+      tagCommand: "docker tag mirror.june.ink/stilleshan/frpc:latest stilleshan/frpc:latest",
+      rmiCommand: "docker rmi mirror.june.ink/stilleshan/frpc:latest"
     };
   },
   methods: {
@@ -66,13 +66,13 @@ export default {
         return registry + '/' + repo + '/' + name + ':' + tag;
       });
 
-      mirrorImage = mirrorImage.replace('docker.io', 'mirror.anye.in');
-      mirrorImage = mirrorImage.replace('ghcr.io', 'ghcr.anye.in');
-      mirrorImage = mirrorImage.replace('gcr.io', 'gcr.anye.in');
-      mirrorImage = mirrorImage.replace('k8s.gcr.io', 'k8s.anye.in');
-      mirrorImage = mirrorImage.replace('registry.k8s.io', 'k8s.anye.in');
-      mirrorImage = mirrorImage.replace('quay.io', 'quay.anye.in');
-      mirrorImage = mirrorImage.replace('mcr.microsoft.com', 'mcr.anye.in');
+      mirrorImage = mirrorImage.replace('docker.io', 'mirror.june.ink');
+      mirrorImage = mirrorImage.replace('ghcr.io', 'ghcr.june.ink');
+      mirrorImage = mirrorImage.replace('gcr.io', 'gcr.june.ink');
+      mirrorImage = mirrorImage.replace('k8s.gcr.io', 'k8s.june.ink');
+      mirrorImage = mirrorImage.replace('registry.k8s.io', 'k8s.june.ink');
+      mirrorImage = mirrorImage.replace('quay.io', 'quay.june.ink');
+      mirrorImage = mirrorImage.replace('mcr.microsoft.com', 'mcr.june.ink');
 
       this.pullCommand = 'docker pull ' + mirrorImage;
       this.tagCommand = 'docker tag ' + mirrorImage + ' ' + this.originalImage;
