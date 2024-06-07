@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Docker Proxy"
-  text: "Form Anye"
+  text: "Form Akuma-real"
   tagline: 多平台容器镜像代理服务，支持 Docker Hub, GitHub, Google, k8s, Quay, Microsoft 等镜像仓库
   image: /Dockerlogo.png
   alt: Dockerlogo

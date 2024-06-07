@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: "Anye Docker Proxy",
+  title: "Akuma-real Docker Proxy",
   description: "多平台容器镜像代理服务，支持 Docker Hub, GitHub, Google, k8s, Quay, Microsoft 等镜像仓库",
   themeConfig: {
     logo: 'Dockerlogo.png',
@@ -12,11 +12,11 @@ export default defineConfig({
       { text: '致谢', link: 'thanks' }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Anyexyz/Anye-Docker-Proxy' }
+      { icon: 'github', link: 'https://github.com/Akuma-real/Akuma-real-Docker-Proxy' }
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024 <a href="/">Anye Docker Proxy</a>'
+      copyright: 'Copyright © 2024 <a href="/">Akuma-real Docker Proxy</a>'
     }
   }
 })
